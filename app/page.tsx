@@ -38,7 +38,7 @@ export default function Home() {
               <Motivations data={motivationsProps} />
             </div>
           </div>
-          <div className=" flex-wrap lg:flex-nowrap  relative overflow-hidden flex justify-between">
+          <div className="grid sm:grid-cols-2 lg:grid-cols-4">
             <StepBox
               header="Sourcing"
               body="Identify potential candidates and sources for the particular role being open."
@@ -73,7 +73,7 @@ export default function Home() {
             <div className="heading">
               <h2>Pain Points and opportunites</h2>
             </div>
-            <div className=" flex-wrap lg:flex-nowrap  relative overflow-hidden flex justify-between">
+            <div className="grid sm:grid-cols-2 lg:grid-cols-4">
               <PainPointOpportuanitis
                 data={[
                   "Job role design requires coordination",
